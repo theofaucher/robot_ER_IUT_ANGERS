@@ -44,7 +44,7 @@ void loop() {   //Fonction infini
     int r_speed = (rdistance * rcoef) + moy_speed;
     //Serial.println(r_speed);
 
-    if(mdistance < 20){ //On change la valeur des coeficients en fonctions de la distance calculée.
+    if(mdistance < 20){ //On change la valeur des coefficients en fonctions de la distance calculée.
       
       /*mcoef = 1.3;
       lcoef = 1.45;
