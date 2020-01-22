@@ -1,5 +1,5 @@
 #define lsharp_pin 2        //Broches de l'Arduino où sont connectés les capteurs Infrarouge.
-#define msharp_pin 3        //Tu n'est   pas beau :p
+#define msharp_pin 3       
 #define rsharp_pin 5
 #define rcolipteur_pin 4    //Broches de l'Arduino où sont connectés les capteurs switch.
 #define mrcolipteur_pin 5
