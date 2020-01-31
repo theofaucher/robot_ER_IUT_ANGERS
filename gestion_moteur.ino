@@ -8,14 +8,14 @@ void motor(unsigned char l_speed, unsigned char r_speed, boolean sens){   //Impl
       
     }
 
-    if(sens == 1) {     //Si sens = 0 alors marche avant.
+    if(sens == 1) {     //Si sens = 0 alors marche avant
 
         digitalWrite(lsens_moteur, LOW); digitalWrite(rsens_moteur, HIGH);    //Défini le sens de rotation du moteur gauche.
         //digitalWrite(lsens_moteur, HIGH); digitalWrite(rsens_moteur, LOW);
     }
     
     analogWrite(lmotor_pin, /*max(*/l_speed + 7/*, 80)*/);   //Règle la vitesse analogique du moteur gauche.
-    analogWrite(rmotor_pin, /*max(*/r_speed/*, 80)*/);   //Règle la vitesse analogique du moteur droit.
+    analogWrite(rmotor_pin, /*max(*/r_speed /*+ 5*//*++ 10*//*, 80)*/);   //Règle la vitesse analogique du moteur droit.
 
 }
 
